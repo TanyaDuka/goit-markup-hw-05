@@ -154,7 +154,6 @@ header {
 
   width: 100%;
   min-height: 80px;
-  outline: 1px black solid;
 
   z-index: 15;
 }
@@ -742,6 +741,36 @@ address {
 .social-footer-link:focus {
   background-color: var(--accent-color);
 }
+
+.left-container {
+  margin-left: 93px;
+}
+
+.form-mailing input {
+  width: 358px;
+  height: 50px;
+
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  box-sizing: border-box;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  border-radius: 4px;
+
+  padding-left: 16px;
+}
+
+.form-mailing button {
+  height: 50px;
+  left: 1185px;
+  top: 2787px;
+
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+
+  margin-left: 12px;
+  padding: 12px 28px;
+}
+
 /*-------------------------------------------------------Modal-----------------------------------------------------*/
 .backdrop {
   width: 100vw;

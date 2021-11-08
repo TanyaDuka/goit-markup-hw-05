@@ -441,7 +441,13 @@
             <h3 class='footer-title'>
                 Подпишитесь на рассылку
             </h3>
-            <input>
+            
+            <div class="form-mailing">
+                <label for="mail"></label>
+                <input type="email" name="mail" id="mail" placeholder="E-mail" />
+
+                <button type="submit">Подписаться</button>
+            </div>
         </div>
 
         </div>
@@ -455,6 +461,37 @@
                     <use href="./images/sprite3.svg#icon-close"></use>
                 </svg>
             </button>
+
+            <h2>
+                <form>
+                    <div class="form-field">
+                        <label for="name">Имя</label>
+                        <input type="text" name="name" id="name" placeholder="Иван Иваныч" autofocus />
+                    </div>
+                    
+                    <div class="form-field">
+                        <label for="tel">Телефон</label>
+                        <input type="tel" name="tel" id="tel" placeholder="+30**-000-00-00" />
+                    </div>
+                    
+                    <div class="form-field">
+                        <label for="mail">Почта</label>
+                        <input type="email" name="mail" id="mail" placeholder="my@mail.com" />
+                    </div>
+                    <div class="form-field">
+                        <label for="comment">Оставьте коментарий</label>
+                        <textarea class="comment" name="comment" id="comment" rows="8" placeholder="Уточните детали доклада"></textarea>
+                    </div>
+                    
+                    <div class="form-field">
+                        <input type="checkbox" name="policy" id="policy" />
+                        <label for="policy">Соглашаюсь на всё, за еду</label>
+                    </div>
+                    
+                    <button type="submit">Оставить заявку</button>
+                </form>
+            </h2>
+
         </div>
     </div>
     
