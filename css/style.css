@@ -798,6 +798,24 @@ address {
   left: 50%;
   transform: translate(-50%, -50%) rotate(0deg);
   transition: transform 500ms linear;
+
+  padding: 40px;
+}
+
+.form-field {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-field:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+.form-field input,
+.form-field textarea {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
 }
 
 .modal-btn {
